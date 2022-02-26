@@ -40,11 +40,12 @@ Ripple sum and carry adder is used as it also inverts the Sum and carry each sta
 <p align="center">
 Fig 2. full adder
 </p>
+for half carry adder xor 
 
 Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage.
 <p align="center" >
 <img src="images/sk.png" width =400 height= 400>
 </p>
 <p align="center">
-Fig 2. full adder
+Fig 3. sklanasky adder
 </p>
