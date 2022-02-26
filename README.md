@@ -27,7 +27,7 @@ In this instead of approaching a circuit in a conventional  manner, every altern
 
 Partial products are generated using nand gates which decreased no.of transistors required by a lot. Using conventional and gate we may require 6(transistors for a single and gate) x 16(partial products)= 96 g. but in our approach we may require 4(transistors for a single nand gate) x 16(partial products) + 2(transistors for an inverter) x 5( inverted since they are used for not the first stage after partial products but for a second stage. So, one has to make them inverted again to get required output) = 74 gates  
 <p align="center">
-<img src="images/kk.png">
+<img src="images/kk.png" width =400 height= 400>
 </p>
 <p align="center">
 Fig 2. partial products
@@ -42,8 +42,8 @@ Fig 2. full adder
 </p>
 
 Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage.
-<p align="center">
-<img src="images/sk.png">
+<p align="center" >
+<img src="images/sk.png" width =400 height= 400>
 </p>
 <p align="center">
 Fig 2. full adder
