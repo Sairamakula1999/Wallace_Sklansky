@@ -57,7 +57,7 @@ Instead of using ripple carry adder Sklansky adder is used to reduce propagation
 Fig 5. sklanasky adder
 </p>
 <p align="center" >
-<img src="images/g.png" width =400 height= 400>
+<img src="images/g.png" width =100 height= 50>
 </p>
 <p align="center">
 Fig 6. black and grey cell
