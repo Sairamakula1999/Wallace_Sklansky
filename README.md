@@ -33,9 +33,12 @@ Partial products are generated using nand gates which decreased no.of transistor
 Fig 2. partial products
 </p>
 Ripple sum and carry adder is used as it also inverts the Sum and carry each stage. If inverted inputs are given to this adder we get correct sum and carry and vice-versa.
+
 <p align="center">
 <img src="images/cs.png">
 </p>
 <p align="center">
 Fig 2. full adder
 </p>
+
+Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage.
