@@ -33,6 +33,7 @@ Partial products are generated using nand gates which decreased no.of transistor
 Fig 2. partial products
 </p>
 Ripple sum and carry adder is used as it also inverts the Sum and carry each stage. If inverted inputs are given to this adder we get correct sum and carry and vice-versa.
+<p align="center">
 <img src="images/cs.png">
 </p>
 <p align="center">
