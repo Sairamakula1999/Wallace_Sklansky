@@ -30,5 +30,5 @@ Partial products are generated using nand gates which decreased no.of transistor
 <img src="images/kk.png">
 </p>
 <p align="center">
-Fig 1. proposed partial products
+Fig 2. proposed partial products
 </p>
