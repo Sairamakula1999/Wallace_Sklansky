@@ -40,6 +40,7 @@ Ripple sum and carry adder is used as it also inverts the Sum and carry each sta
 <p align="center">
 Fig 3. full adder
 </p>
+
 for half carry adder xor and nand gates in odd stage and xor and nor in even stage.
 <p align="center">
 <img src="images/h_o.png">
