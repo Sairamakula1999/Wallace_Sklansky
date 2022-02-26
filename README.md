@@ -2,9 +2,9 @@
 4x4 Wallace tree multiplier using Sklansky
 ## Table of Contents
 
-- [Introduction](https://github.com/Sairamakula1999/Wallace_Sklansky/edit/main/README.md#introduction)
+- [Introduction](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#introduction)
 
-- [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/edit/main/README.md#circuit-design)
+- [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#circuit-design)
 - [Simulation Results](https://github.com/Sairamakula1999/Wallace_Sklansky/edit/main/README.md#simulation-results)
 - [Performance Comparison](https://github.com/Sairamakula1999/Wallace_Sklansky/edit/main/README.md#performance-comparison)
 - [Conclusion](https://github.com/Sairamakula1999/Wallace_Sklansky/edit/main/README.md#conclusion)
