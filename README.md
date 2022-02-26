@@ -20,5 +20,5 @@
 <img src="https://user-images.githubusercontent.com/41693726/155741693-ada2c3e9-4e41-4473-857c-a0bd099c9e77.png">
 </p>
 <p align="center">
-Fig 1. Mixer schematic
+Fig 1. conventional wallace multplier
 </p>
