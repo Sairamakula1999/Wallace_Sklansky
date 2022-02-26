@@ -22,5 +22,6 @@
 <p align="center">
 Fig 1. conventional wallace multplier
 </p>
+
 ## circuit-design
 In this instead of approaching a circuit in a conventional  manner, every alternate stages are inverted to remove extraneous inverters which saves area by a lot and use of sklansky increases performance of circuit by a lot. So, in this we have tried to get best of both worlds like min area by decreasing no. transistors and less propagation delay by wallace with sklansky parallel prefix adder.
