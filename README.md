@@ -49,10 +49,16 @@ for half carry adder xor and nand gates in odd stage and xor and nor in even sta
 Fig 4. half adder
 </p>
 
-Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage and based on even or odd stage, grey and black cell used may vary.
+Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage and based on even or odd stage, grey and black cell used may be varied to remove extraneous inverters.
 <p align="center" >
 <img src="images/sk.png" width =400 height= 400>
 </p>
 <p align="center">
 Fig 5. sklanasky adder
+</p>
+<p align="center" >
+<img src="images/g.png" width =400 height= 400>
+</p>
+<p align="center">
+Fig 6. black and grey cell
 </p>
