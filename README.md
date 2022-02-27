@@ -4,7 +4,7 @@
 
 - [Introduction](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#introduction)
 - [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit%20design)
-- [Circuit Implementation](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit%20Implementation%20using%20synopsys)
+- [Circuit Implementation](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit%20Implementation)
 - [Simulation Results](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#simulation-results)
 - [Performance Comparison](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#performance-comparison)
 - [Conclusion](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#conclusion)
@@ -63,5 +63,59 @@ Fig 5. sklanasky adder
 <p align="center">
 Fig 6. black and grey cell
 </p>
-## Circuit Implementation using synopsys
-aflak
+
+## Circuit Implementation
+
+inv implementation
+<p align="center" >
+<img src="images/inv.png" >
+</p>
+<p align="center">
+Fig 7. inverter
+</p>
+nand implementation
+<p align="center" >
+<img src="images/nand.png" >
+</p>
+<p align="center">
+Fig 8. nand
+</p>
+nor implementation
+<p align="center" >
+<img src="images/nor.png" >
+</p>
+<p align="center">
+Fig 9. nor
+</p>
+xor implementation
+nor implementation
+<p align="center" >
+<img src="images/xor.png" >
+</p>
+<p align="center">
+Fig 10. xor
+</p>
+sum implementation
+nor implementation
+<p align="center" >
+<img src="images/sum.png" >
+</p>
+<p align="center">
+Fig 11. sum
+</p>
+grey cell implementation
+nor implementation
+<p align="center" >
+<img src="images/grey_e.png" >
+<img src="images/grey_o.png" >
+</p>
+<p align="center">
+Fig 12. grey
+</p>
+black cell implementation
+<p align="center">
+<img src="images/black.png" >
+</p>
+<p align="center">
+Fig 13. black
+</p>
