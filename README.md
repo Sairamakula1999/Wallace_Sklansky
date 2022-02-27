@@ -123,3 +123,10 @@ Since only one stage in black. So, it is created for only even stage.
 <p align="center">
 Fig 13. black
 </p>
+
+<p align="center">
+<img src="images/ckt.png" width =300 height= 300>
+</p>
+<p align="center">
+Fig 14. Designed 4x4 wallace sklansky tree multiplier.
+</p>
