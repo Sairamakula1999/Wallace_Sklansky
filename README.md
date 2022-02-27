@@ -88,7 +88,6 @@ nor implementation
 Fig 9. nor
 </p>
 xor implementation
-nor implementation
 <p align="center" >
 <img src="images/xor.png" width =500 height= 500>
 </p>
@@ -96,7 +95,6 @@ nor implementation
 Fig 10. xor
 </p>
 sum implementation
-nor implementation
 <p align="center" >
 <img src="images/sum.png" width =600 height= 400>
 </p>
@@ -104,7 +102,6 @@ nor implementation
 Fig 11. sum
 </p>
 grey cell implementation
-nor implementation
 <p align="center" >
 <img src="images/grey_e.png" width =400 height= 400>
 <img src="images/grey_o.png" width =400 height= 400>
