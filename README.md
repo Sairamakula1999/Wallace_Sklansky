@@ -6,7 +6,6 @@
 - [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit-Design)
 - [Circuit Implementation](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit-Implementation)
 - [Simulation Results](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#simulation-results)
-- [Performance Comparison](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#performance-comparison)
 - [Conclusion](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#conclusion)
 - [Author](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#author) 
 - [Acknowledgements](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#acknowledgements)
@@ -130,3 +129,13 @@ Fig 13. black
 <p align="center">
 Fig 14. Designed 4x4 wallace sklansky tree multiplier.
 </p>
+
+
+
+
+
+
+
+
+
+More changes to be done till March 1st
