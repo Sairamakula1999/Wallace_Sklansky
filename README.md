@@ -118,7 +118,7 @@ Fig 12. grey cells for even and odd stages
 black cell implementation
 Since only one stage in black. So, it is created for only even stage.
 <p align="center">
-<img src="images/black.png" width =200 height= 200>
+<img src="images/black.png" width =300 height= 300>
 </p>
 <p align="center">
 Fig 13. black
