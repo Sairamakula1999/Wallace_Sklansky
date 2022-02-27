@@ -68,21 +68,21 @@ Fig 6. black and grey cell
 
 inv implementation
 <p align="center" >
-<img src="images/inv.png" >
+<img src="images/inv.png" width =300 height= 300>
 </p>
 <p align="center">
 Fig 7. inverter
 </p>
 nand implementation
 <p align="center" >
-<img src="images/nand.png" >
+<img src="images/nand.png" width =400 height= 400>
 </p>
 <p align="center">
 Fig 8. nand
 </p>
 nor implementation
 <p align="center" >
-<img src="images/nor.png" >
+<img src="images/nor.png" width =400 height= 400>
 </p>
 <p align="center">
 Fig 9. nor
@@ -90,7 +90,7 @@ Fig 9. nor
 xor implementation
 nor implementation
 <p align="center" >
-<img src="images/xor.png" >
+<img src="images/xor.png" width =500 height= 500>
 </p>
 <p align="center">
 Fig 10. xor
@@ -98,7 +98,7 @@ Fig 10. xor
 sum implementation
 nor implementation
 <p align="center" >
-<img src="images/sum.png" >
+<img src="images/sum.png" width =600 height= 400>
 </p>
 <p align="center">
 Fig 11. sum
@@ -106,13 +106,14 @@ Fig 11. sum
 grey cell implementation
 nor implementation
 <p align="center" >
-<img src="images/grey_e.png" >
-<img src="images/grey_o.png" >
+<img src="images/grey_e.png" width =400 height= 400>
+<img src="images/grey_o.png" width =400 height= 400>
 </p>
 <p align="center">
-Fig 12. grey
+Fig 12. grey cells for even and odd stages
 </p>
 black cell implementation
+Since only one stage in black. So, it is created for only even stage.
 <p align="center">
 <img src="images/black.png" >
 </p>
