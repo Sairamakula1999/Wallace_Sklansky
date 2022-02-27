@@ -133,7 +133,7 @@ Fig 14. Designed 4x4 wallace sklansky tree multiplier.
 ## Simulation results
 
 <p align="center">
-<img src="images/ckt_sim.png" width =700 height= 400>
+<img src="images/ckt_sim.png" width =700 height= 300>
 </p>
 <p align="center">
 Fig 15. ckt used for simulation
