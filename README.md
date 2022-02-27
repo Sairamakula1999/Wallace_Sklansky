@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Introduction](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#introduction)
-- [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit%20Design)
+- [Circuit Design](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit-Design)
 - [Circuit Implementation](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#Circuit%20Implementation)
 - [Simulation Results](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#simulation-results)
 - [Performance Comparison](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#performance-comparison)
@@ -22,7 +22,7 @@ In high performance processing units & computing systems, multiplication of two 
 Fig 1. conventional wallace multplier
 </p>
 
-## Circuit Design
+## Circuit-Design
 In this instead of approaching a circuit in a conventional  manner, every alternate stages are inverted to remove extraneous inverters which saves area by a lot and use of sklansky increases performance of circuit by a lot. So, in this we have tried to get best of both worlds like min area by decreasing no. transistors and less propagation delay by wallace with sklansky parallel prefix adder.
 
 Partial products are generated using nand gates which decreased no.of transistors required by a lot. Using conventional and gate we may require 6(transistors for a single and gate) x 16(partial products)= 96 g. but in our approach we may require 4(transistors for a single nand gate) x 16(partial products) + 2(transistors for an inverter) x 5( inverted since they are used for not the first stage after partial products but for a second stage. So, one has to make them inverted again to get required output) = 74 gates  
