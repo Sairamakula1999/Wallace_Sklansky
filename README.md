@@ -24,7 +24,7 @@ Fig 1. conventional wallace multplier
 ## Circuit Design
 Instead of approaching a circuit in a conventional manner, every alternate stage is inverted to remove extraneous inverters which save area by a lot, and the use of Sklansky increases the performance of the circuit by a lot. In this, we have tried to get the best of both worlds like min area by decreasing no. transistors and less propagation delay by Wallace with Sklansky parallel prefix adder. Here we have only used CMOS based approach, if transmission gate or pass transistor logic are also considered/used then the transistors can be further reduced.
 
-Partial products are generated using nand gates which decreased no.of transistors required by a lot. Using conventional and gate we may require 6(transistors for a single and gate) x 16(partial products)= 96 transistors. but in our approach we may require 16(partial products) x  nand(4 transistors) + inverter(2 transistors) x 5(inverted since they are used for not the first stage after partial products but for a second stage. So, one has to make them inverted again to maintain polarity) = 74 transistors. So nearly 22 transistors save in this stage only.
+Partial products are generated using nand gates which decreased no. of transistors required by a lot. Using conventional and gate we may require 6(transistors for a single and gate) x 16(partial products)= 96 transistors. But in our approach, we may require 16(partial products) x nand(4 transistors) + inverter(2 transistors) x 5(inverted since they are used for not the first stage after partial products but for a second stage. So, one has to make them inverted again to maintain polarity) = 74 transistors. So nearly 22 transistors save in this stage only.
 <p align="center">
 <img src="images/kk.png" width =400 height= 500>
 </p>
@@ -32,8 +32,7 @@ Partial products are generated using nand gates which decreased no.of transistor
 Fig 2. partial products
 </p>
 
-Ripple sum and carry adder is used as it also inverts the Sum and carry each stage. If inverted inputs are given to this adder we get correct sum and carry and vice-versa.
-Total 5x full adder(24 transistors)= 120 transistors.
+Ripple sum and carry adder is used as it also inverts the Sum and carry each stage. If inverted inputs are given to this adder then one may get the correct sum and carry and vice-versa. Total 5x full adder(24 transistors)= 120 transistors.
 <p align="center">
 <img src="images/cs.png">
 </p>
@@ -50,7 +49,7 @@ for half carry adder xor and nand gates in odd stage, xor and nor in even stage.
 Fig 4. half adder
 </p>
 
-Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage and based on even or odd stage, grey and black cell used may be varied to remove extraneous inverters but if even-even or odd-odd stage connection requires inverters to be added in between them to maintain the polarity and maintain functioning. Since, pg generated in even stage xor and nor are used. if it is generated in odd stage xor and nand can be used. Total transistors for pg generation  4 x pg generation(p(12 transistors for xor) + g(4 transistors for nand/ nor))= 64 transistors. 1 x black cell(10 transistors) + 3 x grey cell(6 transistors) + 2x inverters(2 transistors) + 3 x xor gates(12 transistors)= 68 transistors. Total transistor in this sklansky stage= 64+68= 132 transistors. if we have used ripple adder here instead of sklansky=98 transistors(1 x halfadder(16 transistors) + 3 x fulladder(24 transistors) + 5 x inverter(since inputs or sum has to be inverted after eachh stage) ) will be sufficient. But to speed up the multiplication we have used sklansky adder.
+Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and improve the speed of circuit at the final stage and based on even or odd stage, the grey and black cell used may be varied to remove extraneous inverters but if even-even or odd-odd stage connection requires inverters to be added in between them to maintain the polarity and maintain functioning. Since pg generated in even stage xor and nor are used. if it is generated in odd stage xor and nand can be used. Total transistors for pg generation  4 x pg generation(p(12 transistors for xor) + g(4 transistors for nand/ nor))= 64 transistors. 1 x black cell(10 transistors) + 3 x grey cell(6 transistors) + 2x inverters(2 transistors) + 3 x xor gates(12 transistors)= 68 transistors. Total transistor in this sklansky stage= 64+68= 132 transistors. if we have used ripple adder here instead of Sklansky=98 transistors(1 x halfadder(16 transistors) + 3 x fulladder(24 transistors) + 5 x inverter(since inputs or sum has to be inverted after eachh stage) ) will be sufficient. But to speed up the multiplication we have used the Sklansky adder.
 <p align="center" >
 <img src="images/sk.png" width =400 height= 500>
 </p>
