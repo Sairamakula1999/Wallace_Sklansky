@@ -12,7 +12,7 @@
 - [References](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#references)
 
 ## Introduction
-In high performance processing units & computing systems, multiplication of two binary numbers is primitive and most frequently used arithmetic operation. Wallace tree multiplier is area efficient & high speed multiplier. Here Sklansky parallel prefix adder is also being used to speed up addition at final stage of the circuit. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) tool using 28 nm technology node. and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment. 
+In high-performance processing units & computing systems, the multiplication of two binary numbers is primitive and the most frequently used arithmetic operation. Wallace tree multiplier is area efficient & high-speed multiplier. Here Sklansky parallel prefix adder is also being used to speed up addition at the final stage of the circuit. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) tool using 28 nm technology node and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment.
 
 <p align="center">
 <img src="images/Wallace-Tree-Multiplier-using-full-and-half-adders.png" width =400 height= 400>
@@ -22,7 +22,7 @@ Fig 1. conventional wallace multplier
 </p>
 
 ## Circuit Design
-In this instead of approaching a circuit in a conventional  manner, every alternate stages are inverted to remove extraneous inverters which saves area by a lot and use of sklansky increases performance of circuit by a lot. So, in this we have tried to get best of both worlds like min area by decreasing no. transistors and less propagation delay by wallace with sklansky parallel prefix adder. Here we have only used cmos based approach, if transmission gate or pass transistor logic are also considered/used then the transistors can be further reduced.
+Instead of approaching a circuit in a conventional manner, every alternate stage is inverted to remove extraneous inverters which save area by a lot, and the use of Sklansky increases the performance of the circuit by a lot. In this, we have tried to get the best of both worlds like min area by decreasing no. transistors and less propagation delay by Wallace with Sklansky parallel prefix adder. Here we have only used CMOS based approach, if transmission gate or pass transistor logic are also considered/used then the transistors can be further reduced.
 
 Partial products are generated using nand gates which decreased no.of transistors required by a lot. Using conventional and gate we may require 6(transistors for a single and gate) x 16(partial products)= 96 transistors. but in our approach we may require 16(partial products) x  nand(4 transistors) + inverter(2 transistors) x 5(inverted since they are used for not the first stage after partial products but for a second stage. So, one has to make them inverted again to maintain polarity) = 74 transistors. So nearly 22 transistors save in this stage only.
 <p align="center">
