@@ -147,7 +147,8 @@ Fig 16. ckt used for simulation
 </p>
 
 <p align="center">
-<img src="images/sim.png" width =1000 height= 500>
+<img src="images/in_sim.png" width =500 height= 500>
+<img src="images/out_sim.png" width =500 height= 500>
 </p>
 <p align="center">
 Fig 17. Simulation results
