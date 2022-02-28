@@ -166,7 +166,7 @@ As one can observe for inputs all one(i.e 1.8v) which gives A=15(1111) & B=15(11
 
 ## Conclusion
 Total transistor count for wallace tree multiplier using sklansky= 74(partial products) + 152(for first and second stage) + 132(3rd stage)= 358 transistors.</br>
-if implemented using riiple carry adder as last stage then total transistor count for wallace tree multiplier= 74(partial products) + 152(for first and second stage) + 98(3rd stage)= 324 transistors.</br>
+if implemented using ripple carry adder as last stage then total transistor count for wallace tree multiplier= 74(partial products) + 152(for first and second stage) + 98(3rd stage)= 324 transistors.</br>
 By decreasing output load attached and adjusting gate sizing accordingly one can speedup the transistor as they require.
 ## Author 
 Akula Sairam, Mtech Microelectronics at Indian Institute of information Technology Allahabad, Prayagraj, Uttar Pradesh 211015.
