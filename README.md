@@ -153,4 +153,4 @@ As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout
 
 
 
-More changes to be done till March 1st
+## More changes to be done till March 1st So please wait till then to evaluate
