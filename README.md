@@ -41,7 +41,7 @@ Total 5x full adder(24 transistors)= 120 transistors.
 Fig 3. full adder
 </p>
 
-for half carry adder xor and nand gates in odd stage, xor and nor in even stage. since in both carry is taken from nand/ nor i.e. 2 transistors are saved per each carry. 3 x half adder(xor(12 transistors) + carry(4 transistors for nand/ nor))= 48 transistors.
+for half carry adder xor and nand gates in odd stage, xor and nor in even stage. since in both carry is taken from nand/ nor i.e. 2 transistors are saved per each carry. 2 x half adder(xor(12 transistors) + carry(4 transistors for nand/ nor))= 32 transistors.
 <p align="center">
 <img src="images/h_o.png">
 <img src="images/h_e.png">
@@ -155,7 +155,8 @@ Fig 17. Simulation results
 
 As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout output (1000111)= 1+32+64+128=225(15x15). So, our results are evaluated one can check similarly with other inputs in simulation and intially all inputs are one unless they are changed. So, one may observe output accordingly. 
 
-
+## Conclusion
+Total transistor count= 74(partial products) + 120+48(for first and second stage) 
 
 ## Author 
 Akula Sairam, Mtech microelectronics at Indian Institute of information Technology Allahabad, Prayagraj, Uttar Pradesh 211015.
