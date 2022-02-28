@@ -125,7 +125,7 @@ Fig 13. black
 </p>
 Symbols of every cell generated are given below:
 <p align="center">
-<img src="images/sym.png" width =600 height= 400>
+<img src="images/sym.png" width =700 height= 300>
 </p>
 <p align="center">
 Fig 14. Symbols
