@@ -136,7 +136,7 @@ Fig 14. Symbols
 Fig 15. Designed 4x4 wallace sklansky tree multiplier.
 </p>
 
-Circuit netlist can be viewed [here](https://github.com/MahishaBM/8-bit-Carry-Select-Adder-with-Binary-to-Excess-One-Converter/tree/main/Netlist)<br/>
+Circuit netlist can be viewed [here](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/netlist/proposed_ckt.spi)<br/>
 ## Simulation results
 
 <p align="center">
