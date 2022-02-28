@@ -50,7 +50,7 @@ for half carry adder xor and nand gates in odd stage, xor and nor in even stage.
 Fig 4. half adder
 </p>
 
-Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage and based on even or odd stage, grey and black cell used may be varied to remove extraneous inverters but if even-even or odd-odd stage connection requires inverters to be added in between them to maintain the polarity and maintain functioning. Since, pg generated in even stage xor and nor are used. if it is generated in odd stage xor and nand can be used. Total transistors for pg generation  4 x pg generation(p(12 transistors for xor) + g(4 transistors for nand/ nor))= 64 transistors. 1 x black cell(10 transistors) + 3 x grey cell(6 transistors) + 2x inverters(2 transistors) + 3 x xor gates(12 transistors)= 68 transistors. Total transistor in this sklansky stage= 64+68= 132 transistors. if we have used ripple adder here instead of sklansky=88 transistors(1 x halfadder(16 transistors) + 3 x fulladder(24 transistors)) will be sufficient. But to speed up the multiplication we have used sklansky adder.
+Instead of using ripple carry adder Sklansky adder is used to reduce propagation delay and  and improve speed of circuit at the final stage and based on even or odd stage, grey and black cell used may be varied to remove extraneous inverters but if even-even or odd-odd stage connection requires inverters to be added in between them to maintain the polarity and maintain functioning. Since, pg generated in even stage xor and nor are used. if it is generated in odd stage xor and nand can be used. Total transistors for pg generation  4 x pg generation(p(12 transistors for xor) + g(4 transistors for nand/ nor))= 64 transistors. 1 x black cell(10 transistors) + 3 x grey cell(6 transistors) + 2x inverters(2 transistors) + 3 x xor gates(12 transistors)= 68 transistors. Total transistor in this sklansky stage= 64+68= 132 transistors. if we have used ripple adder here instead of sklansky=98 transistors(1 x halfadder(16 transistors) + 3 x fulladder(24 transistors) + 5 x inverter(since inputs or sum has to be inverted after eachh stage) ) will be sufficient. But to speed up the multiplication we have used sklansky adder.
 <p align="center" >
 <img src="images/sk.png" width =400 height= 500>
 </p>
@@ -165,6 +165,8 @@ Akula Sairam, Mtech microelectronics at Indian Institute of information Technolo
 [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)<br/>
 [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)<br/>
 [Synopsys India](https://www.synopsys.com/)<br/>
+
+
 
 
 ## More changes to be done till March 1st So please wait till then to evaluate
