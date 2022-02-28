@@ -64,7 +64,7 @@ Fig 5. sklanasky adder
 Fig 6. black and grey cell
 </p>
 
-## Circuit Implementation
+## Circuit Implementation using synopsys 28nm technological node
 
 inv implementation
 <p align="center" >
