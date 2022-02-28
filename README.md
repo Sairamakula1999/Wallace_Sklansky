@@ -12,7 +12,7 @@
 - [References](https://github.com/Sairamakula1999/Wallace_Sklansky/blob/main/README.md#references)
 
 ## Introduction
-In high-performance processing units & computing systems, the multiplication of two binary numbers is primitive and the most frequently used arithmetic operation. Wallace tree multiplier is area efficient & high-speed multiplier. Here Sklansky parallel prefix adder is also being used to speed up addition at the final stage of the circuit. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) tool using 28 nm technology node and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment.
+In high-performance processing units & computing systems, the multiplication of two binary numbers is primitive and the most frequently used arithmetic operation. Wallace tree multiplier is area efficient & high-speed multiplier. Here Sklansky parallel prefix adder is also being used to speed up addition at the final stage of the circuit. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) tool using 28 nm technological node and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment.
 
 <p align="center">
 <img src="images/Wallace-Tree-Multiplier-using-full-and-half-adders.png" width =400 height= 400>
