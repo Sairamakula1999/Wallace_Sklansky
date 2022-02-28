@@ -146,12 +146,20 @@ Fig 15. Designed 4x4 wallace sklansky tree multiplier.
 Fig 16. ckt used for simulation
 </p>
 
+for input variations
 <p align="center">
-<img src="images/in_sim.png" width =500 height= 500>
-<img src="images/out_sim.png" width =500 height= 500>
+<img src="images/in_sim.png" width =1000 height= 500>
 </p>
 <p align="center">
-Fig 17. Simulation results
+Fig 17. input Simulation 
+</p>
+
+Corresponding output simulations are:
+<p align="center">
+<img src="images/out_sim.png" width =1000 height= 500>
+</p>
+<p align="center">
+Fig 17. output Simulation 
 </p>
 
 As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout output (1000111)= 1+32+64+128=225(15x15). So, our results are evaluated one can check similarly with other inputs in simulation and intially all inputs are one unless they are changed. So, one may observe output accordingly. 
