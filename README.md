@@ -123,7 +123,7 @@ Since only one stage in black. So, it is created for only even stage.
 <p align="center">
 Fig 13. black
 </p>
-Symbols of every cell generated are given below:
+<b>Symbols</b> of every cell generated are given below:
 <p align="center">
 <img src="images/sym.png" width =700 height= 300>
 </p>
