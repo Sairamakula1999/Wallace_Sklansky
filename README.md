@@ -123,12 +123,18 @@ Since only one stage in black. So, it is created for only even stage.
 <p align="center">
 Fig 13. black
 </p>
-
+Symbols of every cell generated are given below:
 <p align="center">
-<img src="images/ckt.png" width =600 height= 400>
+<img src="images/sym.png" width =600 height= 400>
 </p>
 <p align="center">
-Fig 14. Designed 4x4 wallace sklansky tree multiplier.
+Fig 14. Symbols
+</p>
+<p align="center">
+<img src="images/ckt.png" width =1000 height= 500>
+</p>
+<p align="center">
+Fig 15. Designed 4x4 wallace sklansky tree multiplier.
 </p>
 
 ## Simulation results
@@ -137,14 +143,14 @@ Fig 14. Designed 4x4 wallace sklansky tree multiplier.
 <img src="images/ckt_sim.png" width =700 height= 300>
 </p>
 <p align="center">
-Fig 15. ckt used for simulation
+Fig 16. ckt used for simulation
 </p>
 
 <p align="center">
 <img src="images/sim.png" width =1000 height= 500>
 </p>
 <p align="center">
-Fig 16. Simulation results
+Fig 17. Simulation results
 </p>
 
 As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout output (1000111)= 1+32+64+128=225(15x15). So, our results are evaluated one can check similarly with other inputs in simulation and intially all inputs are one unless they are changed. So, one may observe output accordingly. 
