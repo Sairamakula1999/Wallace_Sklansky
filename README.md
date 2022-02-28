@@ -157,7 +157,13 @@ As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout
 
 
 
+## Author 
+Akula Sairam, Mtech microelectronics at Indian Institute of information Technology Allahabad, Prayagraj, Uttar Pradesh 211015.
 
+## Acknowledgements
+[Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)<br/>
+[Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)<br/>
+[Synopsys India](https://www.synopsys.com/)<br/>
 
 
 ## More changes to be done till March 1st So please wait till then to evaluate
