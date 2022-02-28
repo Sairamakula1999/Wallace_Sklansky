@@ -176,6 +176,10 @@ Akula Sairam, Mtech Microelectronics at Indian Institute of information Technolo
 [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)<br/>
 [Synopsys India](https://www.synopsys.com/)<br/>
 
+## References
+•	https://www.ijert.org/research/simulation-model-of-wallace-tree-multiplier-using-verilog-IJERTV2IS101107.pdf
+•	http://www.ijaema.com/gallery/72-october-2591.pdf
+•	CMOS VLSI Design A Circuits by Neil H. E. Weste, David Money Harris
 
 
 
