@@ -159,7 +159,7 @@ Corresponding output simulations are:
 <img src="images/out_sim.png" width =1000 height= 500>
 </p>
 <p align="center">
-Fig 17. output Simulation 
+Fig 18. output Simulation 
 </p>
 
 As one can observe for inputs all one(i.e 1.8v) which gives A=15 & B=15, we gout output (1000111)= 1+32+64+128=225(15x15). So, our results are evaluated one can check similarly with other inputs in simulation and intially all inputs are one unless they are changed. So, one may observe output accordingly. 
