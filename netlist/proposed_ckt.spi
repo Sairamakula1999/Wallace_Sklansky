@@ -1,0 +1,264 @@
+*  Generated for: PrimeSim
+*  Design library name: wallace
+*  Design cell name: wallace_tb
+*  Design view name: schematic
+.lib 'SAED_PDK32nm/hspice/saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 10:35:58 2022
+
+.global gnd!
+********************************************************************************
+* Library          : wallace
+* Cell             : nand
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nand gnd_1 vdd in1 in2 out
+xm1 out in1 vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm0 out in2 vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm3 net13 in2 gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm2 out in1 net13 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+.ends nand
+
+********************************************************************************
+* Library          : wallace
+* Cell             : inv
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv gnd_1 vdd vin vout
+xm0 vout vin gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm1 vout vin vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+.ends inv
+
+********************************************************************************
+* Library          : wallace
+* Cell             : xor
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt xor gnd_1 in1 in2 out vdd
+xm5 net21 in1 gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm4 net17 net35 gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm3 out in2 net21 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm2 out net47 net17 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm1 net35 in1 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm0 net47 in2 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm11 net47 in2 vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm10 net43 net35 vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm9 out in2 net43 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm8 net35 in1 vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm7 net31 in1 vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm6 out net47 net31 vdd p105 w=0.4u l=0.03u nf=1 m=1
+.ends xor
+
+********************************************************************************
+* Library          : wallace
+* Cell             : nor
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nor gnd_1 vdd in1 in2 out
+xm1 out in2 net3 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm0 net3 in1 vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm3 out in2 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 out in1 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+.ends nor
+
+********************************************************************************
+* Library          : wallace
+* Cell             : sum
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sum a b c carr gnd_1 sum vdd
+xm11 net47 c vdd vdd p105 w=0.6u l=0.03u nf=1 m=1
+xm10 sum b net41 vdd p105 w=0.6u l=0.03u nf=1 m=1
+xm9 net41 a net47 vdd p105 w=0.6u l=0.03u nf=1 m=1
+xm8 sum carr net105 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm7 net105 b vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm6 net105 a vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm5 net105 c vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm4 net19 a vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm3 carr c net19 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm2 net11 c vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm1 carr b net11 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm0 net11 a vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm23 net93 c gnd_1 gnd_1 n105 w=0.3u l=0.03u nf=1 m=1
+xm22 net89 a net93 gnd_1 n105 w=0.3u l=0.03u nf=1 m=1
+xm21 sum b net89 gnd_1 n105 w=0.3u l=0.03u nf=1 m=1
+xm20 net77 b gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm19 net77 a gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm18 net77 c gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm17 sum carr net77 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm16 carr a net67 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm15 net67 c gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm14 net53 c gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm13 net53 a gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm12 carr b net53 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+.ends sum
+
+********************************************************************************
+* Library          : wallace
+* Cell             : grey_o
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt grey_o gij gik gjk gnd_1 pik vdd
+xm2 net9 gjk gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm1 net9 pik gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm0 gij gik net9 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm5 gij gik vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm4 gij pik net15 vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm3 net15 gjk vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+.ends grey_o
+
+********************************************************************************
+* Library          : wallace
+* Cell             : grey_e
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt grey_e gij gik gjk gnd_1 pik vdd
+xm2 net9 gjk gnd_1 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm1 gij pik net9 gnd_1 n105 w=0.2u l=0.03u nf=1 m=1
+xm0 gij gik gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net19 pik vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm4 net19 gjk vdd vdd p105 w=0.4u l=0.03u nf=1 m=1
+xm3 gij gik net19 vdd p105 w=0.4u l=0.03u nf=1 m=1
+.ends grey_e
+
+********************************************************************************
+* Library          : wallace
+* Cell             : black
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt black gij gik gkj gnd_1 pij pik pkj vdd
+xi4 gij gik gkj gnd_1 pik vdd grey_e
+xi2 gnd_1 vdd pik pkj pij nand
+.ends black
+
+********************************************************************************
+* Library          : wallace
+* Cell             : wallace
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt wallace a0 a1 a2 a3 b0 b1 b2 b3 gnd_1 m0 m1 m2 m3 m4 m5 m6 vdd carr
+xi28 gnd_1 vdd net155 net156 net211 nand
+xi16 gnd_1 vdd b3 a3 net286 nand
+xi15 gnd_1 vdd b3 a2 net178 nand
+xi14 gnd_1 vdd b3 a1 net174 nand
+xi13 gnd_1 vdd b3 a0 net186 nand
+xi12 gnd_1 vdd b2 a3 net182 nand
+xi11 gnd_1 vdd b2 a2 net146 nand
+xi10 gnd_1 vdd b2 a1 net111 nand
+xi9 gnd_1 vdd b2 a0 net104 nand
+xi7 gnd_1 vdd b1 a3 net141 nand
+xi6 gnd_1 vdd b1 a2 net112 nand
+xi5 gnd_1 vdd b1 a1 net105 nand
+xi4 gnd_1 vdd b1 a0 net270 nand
+xi3 gnd_1 vdd b0 a3 net113 nand
+xi2 gnd_1 vdd b0 a2 net106 nand
+xi1 gnd_1 vdd b0 a1 net271 nand
+xi0 gnd_1 vdd b0 a0 net268 nand
+xi55 gnd_1 vdd net302 net252 inv
+xi54 gnd_1 vdd net303 net301 inv
+xi34 gnd_1 vdd net186 net183 inv
+xi33 gnd_1 vdd net182 net179 inv
+xi32 gnd_1 vdd net178 net175 inv
+xi50 gnd_1 vdd net174 net171 inv
+xi17 gnd_1 vdd net268 m0 inv
+xi49 gnd_1 net266 net294 m6 vdd xor
+xi48 gnd_1 net288 net301 m5 vdd xor
+xi47 gnd_1 net256 net231 m4 vdd xor
+xi38 gnd_1 net285 net286 net294 vdd xor
+xi37 gnd_1 net281 net283 net303 vdd xor
+xi36 gnd_1 net277 net275 net231 vdd xor
+xi35 gnd_1 net211 net210 m3 vdd xor
+xi27 gnd_1 net156 net155 m2 vdd xor
+xi25 gnd_1 net146 net141 net137 vdd xor
+xi18 gnd_1 net270 net271 m1 vdd xor
+xi42 gnd_1 vdd net283 net281 net302 nor
+xi41 gnd_1 vdd net286 net285 net251 nor
+xi40 gnd_1 vdd net275 net277 net232 nor
+xi39 gnd_1 vdd net210 net211 net256 nor
+xi26 gnd_1 vdd net141 net146 net168 nor
+xi19 gnd_1 vdd net271 net270 net156 nor
+xi30 net168 net175 net179 net285 gnd_1 net283 vdd sum
+xi29 net161 net183 net163 net277 gnd_1 net210 vdd sum
+xi22 net118 net171 net137 net281 gnd_1 net275 vdd sum
+xi21 net111 net112 net113 net118 gnd_1 net163 vdd sum
+xi20 net104 net105 net106 net161 gnd_1 net155 vdd sum
+xi52 net266 net252 net288 gnd_1 net301 vdd grey_o
+xi53 carr net246 net288 gnd_1 net245 vdd grey_o
+xi46 net246 net251 net302 gnd_1 net245 net294 net303 vdd black
+xi51 net288 net232 net256 gnd_1 net231 vdd grey_e
+.ends wallace
+
+********************************************************************************
+* Library          : wallace
+* Cell             : wallace_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 a0 a1 a2 a3 b0 b1 b2 b3 gnd! m0 m1 m2 m3 m4 m5 m6 net35 m7 wallace
+v35 a0 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 12.5n 25n )
+v34 a3 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 100n 200n )
+v33 a2 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 50n 100n )
+v32 b2 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 50n 100n )
+v31 b1 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 25n 50n )
+v28 b3 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 100n 200n )
+v30 b0 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 12.5n 25n )
+v29 a1 gnd! dc=0 pulse ( 0 1.8 0 1p 1p 25n 50n )
+v36 net35 gnd! dc=1.8
+c19 m0 gnd! c=25f
+c17 m1 gnd! c=25f
+c16 m2 gnd! c=25f
+c15 m3 gnd! c=25f
+c14 m4 gnd! c=25f
+c13 m5 gnd! c=25f
+c12 m6 gnd! c=25f
+c11 m7 gnd! c=25f
+
+
+
+
+
+
+
+
+.tran '0.5n' '200n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a0) v(a1) v(a2) v(a3) v(b0) v(b1) v(b2) v(b3) v(m0) v(m1) v(m2)
++ v(m3) v(m4) v(m5) v(m6) v(m7)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
