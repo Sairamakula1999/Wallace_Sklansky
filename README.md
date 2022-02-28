@@ -177,9 +177,9 @@ Akula Sairam, Mtech Microelectronics at Indian Institute of information Technolo
 [Synopsys India](https://www.synopsys.com/)<br/>
 
 ## References
-•	https://www.ijert.org/research/simulation-model-of-wallace-tree-multiplier-using-verilog-IJERTV2IS101107.pdf
-•	http://www.ijaema.com/gallery/72-october-2591.pdf
-•	CMOS VLSI Design A Circuits by Neil H. E. Weste, David Money Harris
+•	https://www.ijert.org/research/simulation-model-of-wallace-tree-multiplier-using-verilog-IJERTV2IS101107.pdf<br/>
+•	http://www.ijaema.com/gallery/72-october-2591.pdf<br/>
+•	CMOS VLSI Design A Circuits by Neil H. E. Weste, David Money Harris<br/>
 
 
 
