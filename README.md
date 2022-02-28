@@ -66,7 +66,7 @@ Fig 6. black and grey cell
 
 ## Circuit Implementation using synopsys 28nm technological node
 
-inv implementation
+<b>Inverter implementation</b>
 <p align="center" >
 <img src="images/inv.png" width =300 height= 300>
 </p>
@@ -74,7 +74,7 @@ inv implementation
 Fig 7. inverter
 </p>
 
-nand implementation
+<b>Nand implementation</b>
 <p align="center" >
 <img src="images/nand.png" width =400 height= 400>
 </p>
@@ -82,7 +82,7 @@ nand implementation
 Fig 8. nand
 </p>
 
-nor implementation
+<b>Nor implementation</b>
 <p align="center" >
 <img src="images/nor.png" width =400 height= 400>
 </p>
@@ -90,7 +90,7 @@ nor implementation
 Fig 9. nor
 </p>
 
-xor implementation
+<b>Xor implementation</b>
 <p align="center" >
 <img src="images/xor.png" width =500 height= 500>
 </p>
@@ -98,7 +98,7 @@ xor implementation
 Fig 10. xor
 </p>
 
-sum implementation
+<b>Sum implementation</b>
 <p align="center" >
 <img src="images/sum.png" width =600 height= 400>
 </p>
@@ -106,7 +106,7 @@ sum implementation
 Fig 11. sum
 </p>
 
-grey cell implementation
+<b>Grey cell implementation</b>
 <p align="center" >
 <img src="images/grey_e.png" width =400 height= 400>
 <img src="images/grey_o.png" width =400 height= 400>
@@ -115,7 +115,7 @@ grey cell implementation
 Fig 12. grey cells for even and odd stages
 </p>
 
-black cell implementation
+<b>Black cell implementation</b>
 Since only one stage in black. So, it is created for only even stage.
 <p align="center">
 <img src="images/black.png" width =300 height= 300>
