@@ -162,7 +162,7 @@ Corresponding output simulations are:
 Fig 18. output Simulation 
 </p>
 
-As one can observe for inputs all one(i.e 1.8v) which gives A=15(1111) & B=15(1111), for that corresponding output observed=(1000111)= (1+32+64+128)=225(15x15). So, results are evaluated one can check similarly with other inputs in simulation and may observe output accordingly. 
+As one can observe for inputs all one(i.e 1.8v) which gives A=15(1111) & B=15(1111), for that corresponding output observed=(10000111)= (1+32+64+128)=225(15x15). So, results are evaluated one can check similarly with other inputs in simulation and may observe output accordingly. 
 
 ## Conclusion
 Total transistor count for wallace tree multiplier using sklansky= 74(partial products) + 168(for first and second stage) + 132(3rd stage)= 374 transistors.</br>
